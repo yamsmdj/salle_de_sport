@@ -15,17 +15,19 @@
     z-index: 10;
     padding: 0;
 }
+
 nav .container-fluid{
     padding: 0;
+    margin: auto;
+    width: 90%;
 }
 
 li .nav-link{
     color: white;
-    padding-top:20px;
 }
 li .nav-link:hover{
     background-color: gold ;
-    padding-top: 20px;
+    
 }
 .navbar-collapse {
     justify-content: space-evenly;
@@ -50,6 +52,7 @@ li .nav-link:hover{
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
+    font-size: calc(0.5rem + .7vw);
 }
 .carousel-item button{
     position: absolute;
