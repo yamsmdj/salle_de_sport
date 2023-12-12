@@ -15,7 +15,9 @@
     z-index: 10;
     padding: 0;
 }
-
+.navbar-collapse {
+    justify-content: space-evenly;
+}
 nav .container-fluid{
     padding: 0;
     margin: auto;
@@ -24,47 +26,54 @@ nav .container-fluid{
 
 li .nav-link{
     color: white;
+   
 }
-li .nav-link:hover{
-    background-color: gold ;
-    
+li .nav-link:hover, a.nav-link.active{
+    background-color: gold ;   
 }
-.navbar-collapse {
-    justify-content: space-evenly;
-
+.nav-link:focus {
+color: unset!important;
 }
 .reseau a{
     color:white;
 }
 /* SLIDER */
+
 .carousel-indicators button{
     border-radius: 50%;
     height: 25px!important;
-    background-color: transparent;
+    border:none;
+    background: unset!important;
+    margin-bottom: 2rem;
+}
+.carousel-indicators .active{
+    border: none;
+    background: white!important;;
+}
+#btn1,#btn2,#btn3{
+    border: 3px white solid;
 }
 
 .carousel-inner{
     position: relative;
 }
-.carousel-item h2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
-    font-size: calc(0.5rem + .7vw);
-}
-.carousel-item button{
+.mini_contain {
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: transparent;
-    padding: 10px 40px;
-    color: white;
-    border: 3px solid white;
+    font-size: calc(0.5rem + .7vw);
+    text-align: center;
 }
-
+.mini_contain h2,button{
+    color: white;
+    background-color: transparent;
+   padding: 15px 50px;
+}
+.mini_contain button{
+    border: 3px white solid;
+    border-radius: 5px;
+}
 
 
 
