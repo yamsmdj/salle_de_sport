@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.navbar-expand-lg.bg-body-tertiary{
+    background-color: white!important;
+}
+
+.navbar-collapse {
+    justify-content: space-evenly;
+}
