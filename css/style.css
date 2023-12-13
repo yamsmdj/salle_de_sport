@@ -7,10 +7,8 @@
     box-sizing: border-box;
     list-style: none;
     font-family:'Oswald', sans-serif;
-    ;
     /* border: 1px red solid; */
 }
-
 header a{
     text-decoration: none;
     color: white;
@@ -27,7 +25,6 @@ header a:hover, button:hover{
     z-index: 10;
     padding: 0;
     text-transform: uppercase;
-    
 }
 .navbar-expand-lg .navbar-nav {
 justify-content: space-between;
@@ -85,7 +82,6 @@ ul .dropdown-menu{
     background-color: #cbac6b;
     color: black;
     text-decoration: underline 2px;
-    
 }
 /*---- SLIDER ----*/
 
@@ -229,4 +225,5 @@ input[type=submit]{
 
 /* -------------------------------------ERROR 404 ----------------------- */
 .error_404_body{
+
  background: #333!important;}
