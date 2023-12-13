@@ -9,41 +9,22 @@
     font-family:'Oswald', sans-serif;
     /* border: 1px red solid; */
 }
-header a{
-    text-decoration: none;
-    color: white;
-}
 header a:hover, button:hover{
     color:#cbac6b
 }
 .navbar-expand-lg.bg-body-tertiary{
-    width: 100%;
     background: none!important;
-    position: absolute;
-    color: white;
     font-size: 1.5em;
     z-index: 10;
-    padding: 0;
-    text-transform: uppercase;
 }
-.navbar-expand-lg .navbar-nav {
-justify-content: space-between;
-align-items: center;
-text-decoration: none; 
+.w-90{
+    width: 90%!important;
 }
-.navbar-collapse {
-    justify-content: space-between;
-}
-nav .container-fluid{
-    padding: 0;
-    margin: auto;
-    width: 90%;
-}
-.nav-item{
+.p-20{
     padding: 20px;
 }
-li .nav-link{
-    color: white;
+.bg-luxe{
+    background-color: #cbac6b;
 }
 .nav-item:hover, a.nav-link.active{
     background-color: #cbac6b ;   
@@ -52,35 +33,24 @@ li .nav-link{
 .nav-link:focus {
 color: white!important;
 }
-.tel_reseau{
-display: flex;
-width: 30%;
-justify-content: space-around;
+.w-30{
+    width: 30%;
 }
-.reseau a{
-    color:white;
+.bg-333{
+    background-color: #333!important;
 }
-.dropdown-toggle {
-    text-decoration: none; 
-    color: white; 
-}
-ul .dropdown-menu{
-    background-color: #333;
-}
-.dropdown-menu li a{
-    color: white; 
-}
-.dropdown-menu li a:hover{
-    color: #cbac6b;
+.bg-unset{
     background-color: unset;
+}
+.bg-luxe-hover:hover{
+    color: #cbac6b!important;
+    background-color: unset!important;
 }
 .lang{
     right: 3%;
     width: 55px;
     height: 65px;
     clip-path: polygon(0% 0%, 100% 0, 100% 72%, 51% 100%, 0 71%);
-    background-color: #cbac6b;
-    color: black;
     text-decoration: underline 2px;
 }
 /*---- SLIDER ----*/
@@ -100,16 +70,11 @@ ul .dropdown-menu{
     border: 3px white solid;
 }
 
-.carousel-inner{
-    position: relative;
-}
 .mini_contain {
     top: 60%;
     transform: translate(-50%,-50%);
-    text-align: center;
 }
 .mini_contain h2,button{
-    color: white;
     background-color: transparent;
    padding: 1% 5%;
 }
