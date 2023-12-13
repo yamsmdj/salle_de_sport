@@ -29,7 +29,6 @@ header a:hover, button:hover{
     
 }
 .navbar-expand-lg .navbar-nav {
- width: 39%;
 justify-content: space-between;
 align-items: center;
 text-decoration: none; 
@@ -74,7 +73,17 @@ ul .dropdown-menu{
     color: #cbac6b;
     background-color: unset;
 }
-/* SLIDER */
+.lang{
+    right: 3%;
+    width: 55px;
+    height: 65px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 72%, 51% 100%, 0 71%);
+    background-color: #cbac6b;
+    color: black;
+    text-decoration: underline 2px;
+    
+}
+/*---- SLIDER ----*/
 
 .carousel-indicators button{
     border-radius: 50%;
@@ -95,56 +104,20 @@ ul .dropdown-menu{
     position: relative;
 }
 .mini_contain {
-    position: absolute;
     top: 60%;
-    left: 50%;
     transform: translate(-50%,-50%);
-    font-size: calc(0.5rem + .7vw);
     text-align: center;
 }
 .mini_contain h2,button{
     color: white;
     background-color: transparent;
-   padding: 15px 50px;
+   padding: 1% 5%;
 }
 .mini_contain button{
     border: 3px white solid;
     border-radius: 5px;
 }
 
-
-
-
-
-
-
-
-
-/* .slide img{
-    position: relative;
-    background-size: cover;
-    width: 100%;
-}
-.slide h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 2;
-    color: white;
-}
-.slide button {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 2; 
-    background-color: transparent;
-    padding: 10px 50px;
-    color: white;
-    border: white 3px solid;
-    font-size: 32px;
-} */
 /* ----------------------CONTACT PAGE  ------------------------------*/
 
 .contain_contact{
@@ -155,12 +128,10 @@ ul .dropdown-menu{
 }
 
 .coordonnee ul li{
-    /* flex-direction: column; */
-    display: grid;
-    gap : 15px 0;
-     width: 50%;
-     font-size: calc(0.5rem + 1vw);
-    /* height: 83px; */ 
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    height: 83px; 
 }
 
 
@@ -194,6 +165,8 @@ input[type=submit]{
     color: white;
 }
 
+/* -----------------------------------MEDIA QUERY ------------------------------------- */
+
 
 @media screen and (max-width: 992px){
     .navbar-collapse{
@@ -216,5 +189,11 @@ input[type=submit]{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .mini_contain h2 {
+        font-size: 18px;
+    }
+    .lang{
+        display: none;
     }
 }
