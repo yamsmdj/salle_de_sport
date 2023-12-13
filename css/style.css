@@ -83,7 +83,24 @@ color: white!important;
     border: 3px white solid;
     border-radius: 5px;
 }
-
+.m-top100{
+    margin-top: 100px;
+}
+.text-center1{
+    margin-top: 50px;
+}
+.text-center.fs-1.fw-medium.titre3{
+    margin-top: 60px;
+}
+.d-flex.cards1{
+    margin-top: 25px;
+}
+.text-center.fs-1.fw-medium.titrecards2{
+    margin-top: 60px;
+}
+.text-center.trait3{
+    margin-bottom: 60px;
+}
 
 /* ----------------------CONTACT PAGE  ------------------------------*/
 
