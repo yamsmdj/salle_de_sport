@@ -94,11 +94,9 @@ color: white!important;
 
 /* ----------------------CONTACT PAGE  ------------------------------*/
 
-.contain_contact{
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.h-100vh{
+    height: 100vh;
 }
 
 .coordonnee ul li{
