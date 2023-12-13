@@ -26,17 +26,16 @@ header a:hover, button:hover{
     font-size: 1.5em;
     z-index: 10;
     padding: 0;
+    text-transform: uppercase;
     
 }
 .navbar-expand-lg .navbar-nav {
 justify-content: space-between;
 align-items: center;
 text-decoration: none; 
-font-size: 22px;
-text-transform: uppercase;
 }
 .navbar-collapse {
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 nav .container-fluid{
     padding: 0;
@@ -55,6 +54,11 @@ li .nav-link{
 }
 .nav-link:focus {
 color: white!important;
+}
+.tel_reseau{
+display: flex;
+width: 30%;
+justify-content: space-around;
 }
 .reseau a{
     color:white;
@@ -166,9 +170,27 @@ input[type=submit]{
 }
 
 /* -----------------------------------MEDIA QUERY ------------------------------------- */
-
-
+.logo_a1{
+    display: none;
+}
+@media screen and (max-width:1400px){
+.navbar-expand-lg.bg-body-tertiary{
+    font-size: 16px;
+}
+}
 @media screen and (max-width: 992px){
+
+    .logo_a1{
+        display: block;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        height: 10vh;
+    }
     .navbar-collapse{
         background-color: #333;
         display: flex;
@@ -180,6 +202,13 @@ input[type=submit]{
         color: #cbac6b;
         text-decoration: underline;
         cursor: pointer;
+    }
+    .tel_reseau{
+        flex-direction: column;
+        text-align: center;
+    }
+    .reseau{
+        font-size: 22px;
     }
     .coordonnee{
         width: 40%;
@@ -197,3 +226,7 @@ input[type=submit]{
         display: none;
     }
 }
+
+/* -------------------------------------ERROR 404 ----------------------- */
+.error_404_body{
+ background: #333!important;}
