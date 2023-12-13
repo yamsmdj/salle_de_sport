@@ -74,6 +74,9 @@ ul .dropdown-menu{
     color: #cbac6b;
     background-color: unset;
 }
+.mini_contain{
+    color: white;
+}
 /* SLIDER */
 
 .carousel-indicators button{
@@ -111,7 +114,6 @@ ul .dropdown-menu{
     border: 3px white solid;
     border-radius: 5px;
 }
-
 
 
 
