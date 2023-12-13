@@ -20,11 +20,21 @@ header a:hover, button:hover{
 .w-90{
     width: 90%!important;
 }
+.p-10{
+    padding: 10px;
+}
 .p-20{
     padding: 20px;
 }
 .bg-luxe{
     background-color: #cbac6b;
+}
+.text-luxe-hover:hover{
+    color: #cbac6b!important;
+    background-color: unset!important;
+}
+.bg-luxe-hover:hover{
+    background: #cbac6b;
 }
 .nav-item:hover, a.nav-link.active{
     background-color: #cbac6b ;   
@@ -41,10 +51,6 @@ color: white!important;
 }
 .bg-unset{
     background-color: unset;
-}
-.bg-luxe-hover:hover{
-    color: #cbac6b!important;
-    background-color: unset!important;
 }
 .lang{
     right: 3%;
@@ -78,6 +84,7 @@ color: white!important;
 .mini_contain h2,button{
     background-color: transparent;
    padding: 1% 5%;
+   
 }
 .mini_contain button{
     border: 3px white solid;
