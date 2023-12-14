@@ -26,8 +26,17 @@ header a:hover, button:hover{
 .p-20{
     padding: 20px;
 }
+.h-400{
+    height: 400px;
+}
+.h-200{
+    height: 200px;
+}
 .bg-luxe{
     background-color: #cbac6b;
+}
+.text-luxe{
+    color: #cbac6b;
 }
 .text-luxe-hover:hover{
     color: #cbac6b!important;
