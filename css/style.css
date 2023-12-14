@@ -26,8 +26,17 @@ header a:hover, button:hover{
 .p-20{
     padding: 20px;
 }
+.h-400{
+    height: 400px;
+}
+.h-200{
+    height: 200px;
+}
 .bg-luxe{
     background-color: #cbac6b;
+}
+.text-luxe{
+    color: #cbac6b;
 }
 .text-luxe-hover:hover{
     color: #cbac6b!important;
@@ -54,8 +63,8 @@ color: white!important;
 }
 .lang{
     right: 3%;
-    width: 55px;
-    height: 65px;
+    width: 35px;
+    height: 55px;
     clip-path: polygon(0% 0%, 100% 0, 100% 72%, 51% 100%, 0 71%);
     text-decoration: underline 2px;
 }
@@ -161,8 +170,8 @@ input[type=submit]{
 @media screen and (max-width:1400px){
 .navbar-expand-lg.bg-body-tertiary{
     font-size: 16px;
-}
-}
+}}
+
 @media screen and (max-width: 992px){
 
     .logo_a1{
