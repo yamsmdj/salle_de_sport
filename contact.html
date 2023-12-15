@@ -65,7 +65,7 @@
         
 </header>
     <main>
-      <div class="container_contact d-flex justify-content-center align-items-center">
+      <div class="container_contact d-flex justify-content-center align-items-center p-100">
         <div class="cordonnees">
           <h1>NOS COORDONNÉES</h1>
           <ul class="d-flex flex-column">
@@ -75,19 +75,21 @@
             <li class="d-flex flex-column w-50"><strong>Email</strong>contact (at) studiobiarritz.com ou via ce formulaire</li>
           </ul>
         </div>
-        <form>
+        <form class="d-flex flex-column w-40">
           <h1>FORMULAIRE DE CONTACT</h1>
-          <div class="inputs_id">
-            <input type="text" placeholder="VOTRE NOM">
-            <input type="text" placeholder="VOTRE PRÉNOM">
+          <div class="row">
+            <div class=" row gap-1">
+              <input type="text" class="col-12 col-md-6"  placeholder="VOTRE NOM">
+              <input type="text" class="col-12 col-md-6"  placeholder="VOTRE PRÉNOM">
+            </div>
+            <div class=" gap-3 row my-2">
+              <input type="text" class="col" placeholder="VOTRE TÉLÉPHONE">
+              <input type="text" class="col-8"  placeholder="VOTRE EMAIL">
+            </div>
+            <input type="text" class="col1" placeholder="SUJET">
+            <input type="text"  class="col my-2 p-5" placeholder="VOTRE MESSAGE">
+           <div> <input class="d-block" type="submit"></div>
           </div>
-          <div class="inputs_contact">
-            <input type="text" placeholder="VOTRE TÉLÉPHONE">
-            <input type="text" placeholder="VOTRE EMAIL">
-          </div>
-          <input type="text" placeholder="SUJET">
-          <input type="text" placeholder="VOTRE MESSAGE">
-          <input type="submit">
         </form>
       </div>
       <img src="assets/images/logo_bg/googlemap_dark.PNG" class="w-100" alt="">
