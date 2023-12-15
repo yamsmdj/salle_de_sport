@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-
 *{
     padding: 0;
     margin: 0;
@@ -101,22 +100,19 @@ color: white!important;
 }
 /* main */
 .m-top100{
-    margin-top: 100px;
+    margin-top: 3rem;
 }
 .text-center1{
     margin-top: 50px;
-}
-.text-center.fs-1.fw-medium.titre3{
+} 
+ .text-center.fs-1.fw-medium.titre3, .text-center.fs-1.fw-medium.titrecards2{
     margin-top: 60px;
 }
 .d-flex.cards1{
     margin-top: 25px;
-}
-.text-center.fs-1.fw-medium.titrecards2{
-    margin-top: 60px;
-}
+} 
 .text-center.trait3{
-    margin-bottom: 60px;
+    margin-bottom: 3rem;
 }
 
 /* ----------------------CONTACT PAGE  ------------------------------*/
@@ -163,7 +159,25 @@ input[type=submit]{
     background-color: #cbac6b;
     color: white;
 }
-
+.card-link1::after{
+bottom: -7px;
+left: 50%;
+transform: translateX(-50%);
+}
+.card-link::after{
+bottom:-7px;
+left: 0;
+}
+.card-link::after,.card-link1::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    transition: width 0.3s;
+    border-bottom: 2px solid black ;
+}
+.card-link:hover::after, .card-link1:hover::after{
+    width: 100px;
+}
 /* -----------------------------------MEDIA QUERY ------------------------------------- */
 .logo_a1{
     display: none;
