@@ -19,12 +19,19 @@ header a:hover, button:hover{
 .w-90{
     width: 90%!important;
 }
+.w-40{
+    width: 40%;
+}
 .p-10{
     padding: 10px;
 }
 .p-20{
     padding: 20px;
 }
+.p-100{
+    padding: 100px;
+}
+
 .h-400{
     height: 400px;
 }
@@ -117,43 +124,14 @@ color: white!important;
 
 /* ----------------------CONTACT PAGE  ------------------------------*/
 
-
-.h-100vh{
-    height: 100vh;
-}
-
-.coordonnee ul li{
-    flex-direction: column;
-    display: flex;
-    width: 50%;
-    height: 83px; 
-}
-
-
-form {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-}
 form input{
+    
     padding: 15px;
     margin-top: 15px;
     background-color: rgba(172, 171, 171, 0.349);
     border: none;
 }
-.inputs_name,.inputs_contact{
-    justify-content: space-between;
-    display: flex;
-}
- #name{
-    width: 60%;
-}
-#first_name{
-    width: 38%;
-}
-#email{
-    width: 70%;
-} 
+
 input[type=submit]{
     width: 20%;
     background-color: #cbac6b;
@@ -188,7 +166,6 @@ left: 0;
 }}
 
 @media screen and (max-width: 992px){
-
     .logo_a1{
         display: block;
     }
@@ -233,6 +210,16 @@ left: 0;
     }
     .lang{
         display: none;
+    }
+    .lg-d-flex{
+        display: flex;
+    }
+    .lg-d-flex-column{
+        display: flex;
+        flex-direction: column;
+    }
+    .lg-w-100{
+        width: 100%;
     }
 }
 
