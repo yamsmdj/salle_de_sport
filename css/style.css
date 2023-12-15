@@ -172,6 +172,17 @@ left: 0;
 .card-link:hover::after, .card-link1:hover::after{
     width: 100px;
 }
+.test::before {
+    content:"";
+    position: absolute;
+    top: 50%;
+    left : -40px;
+    border-bottom: 3px solid white;
+    width: 26px;
+}
+.test:hover::before{
+    border-color:#cbac6b
+}
 /* -----------------------------------MEDIA QUERY ------------------------------------- */
 .logo_a1{
     display: none;
