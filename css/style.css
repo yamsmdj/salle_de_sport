@@ -157,17 +157,18 @@ input[type=submit]{
 bottom: -7px;
 left: 50%;
 transform: translateX(-50%);
+border-bottom: 2px solid white ;
 }
 .card-link::after{
 bottom:-7px;
 left: 0;
+border-bottom: 2px solid black ;
 }
 .card-link::after,.card-link1::after{
     content: "";
     position: absolute;
     width: 30px;
     transition: width 0.3s;
-    border-bottom: 2px solid white ;
 }
 .card-link:hover::after, .card-link1:hover::after{
     width: 100px;
