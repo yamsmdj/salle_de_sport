@@ -19,6 +19,9 @@ header a:hover, button:hover{
 .w-90{
     width: 90%!important;
 }
+.w-200{
+    width: 200px;
+}
 .w-40{
     width: 40%;
 }
@@ -34,6 +37,15 @@ header a:hover, button:hover{
 
 .h-400{
     height: 400px;
+}
+.h-20{
+    height: 20px;
+}
+.h-30{
+    height: 30px;
+}
+.h-50{
+    height: 50px;
 }
 .h-200{
     height: 200px;
@@ -157,17 +169,20 @@ input[type=submit]{
 bottom: -7px;
 left: 50%;
 transform: translateX(-50%);
+border-bottom: 2px solid white ;
+
 }
 .card-link::after{
 bottom:-7px;
 left: 0;
+border-bottom: 2px solid black ;
+
 }
 .card-link::after,.card-link1::after{
     content: "";
     position: absolute;
     width: 30px;
     transition: width 0.3s;
-    border-bottom: 2px solid white ;
 }
 .card-link:hover::after, .card-link1:hover::after{
     width: 100px;
@@ -187,11 +202,25 @@ left: 0;
 .logo_a1{
     display: none;
 }
-@media screen and (max-width:1400px){
-.navbar-expand-lg.bg-body-tertiary{
-    font-size: 16px;
-}}
+.imgs_cards::before{
+content:'\f004';
+width: 20px;
+height: 20px;
+background: red;
+position: absolute;
+}
+.imgs_cards:hover{
 
+}
+/* MEDIA 3 CARD */
+
+@media screen and (max-width:1400px){   
+    .navbar-expand-lg.bg-body-tertiary{
+        font-size: 16px;
+    }
+    .width-xl-50{
+        width: 50%;
+    }}
 @media screen and (max-width: 992px){
     .logo_a1{
         display: block;
@@ -245,11 +274,13 @@ left: 0;
         display: flex;
         flex-direction: column;
     }
-    .lg-w-100{
+    .width-lg-100{
         width: 100%;
     }
+    .width-lg-50{
+        width: 50%;
+    }
 }
-
 /* -------------------------------------ERROR 404 ----------------------- */
 .error_404_body{
 
