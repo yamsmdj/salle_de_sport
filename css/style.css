@@ -94,7 +94,7 @@ color: white!important;
     height: 25px!important;
     border:none;
     background: unset!important;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .carousel-indicators .active{
     border: none;
@@ -147,6 +147,9 @@ color: white!important;
 }
 .h-2{
     height: 2px;
+}
+.height{
+    height: 400px;
 }
 
 
@@ -209,9 +212,7 @@ height: 20px;
 background: red;
 position: absolute;
 }
-.imgs_cards:hover{
 
-}
 /* MEDIA 3 CARD */
 
 @media screen and (max-width:1400px){   
