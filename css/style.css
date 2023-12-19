@@ -16,6 +16,9 @@ header a:hover, button:hover{
     font-size: 1.5em;
     z-index: 10;
 }
+.w-30{
+    width: 30%;
+}
 .w-90{
     width: 90%!important;
 }
@@ -78,9 +81,6 @@ header a:hover, button:hover{
 }
 .nav-link:focus {
 color: white!important;
-}
-.w-30{
-    width: 30%;
 }
 .bg-333{
     background-color: #333!important;
@@ -170,11 +170,8 @@ form input{
     background-color: rgba(172, 171, 171, 0.349);
     border: none;
 }
-
 input[type=submit]{
-    width: 20%;
     background-color: #cbac6b;
-    color: white;
 }
 .card-link1::after{
 bottom: -7px;
@@ -213,7 +210,6 @@ border-bottom: 2px solid black ;
     margin: 100px 0px;
 }
 
-/* -----------------------------------MEDIA QUERY ------------------------------------- */
 .logo_a1{
     display: none;
 }
@@ -247,8 +243,7 @@ opacity: 1;
 .imgs_cards:hover{
 opacity: .7;
 }
-/* MEDIA 3 CARD */
-
+/* -----------------------------------MEDIA QUERY ------------------------------------- */
 @media screen and (max-width:1400px){   
     .navbar-expand-lg.bg-body-tertiary{
         font-size: 16px;
@@ -257,6 +252,9 @@ opacity: .7;
         width: 50%;
     }}
 @media screen and (min-width:992px) {
+.w-lg-20{
+    width: 10%!important;
+}
 .w-lg-20{
     width: 20%!important;
 }
@@ -350,5 +348,4 @@ opacity: .7;
 }
 /* -------------------------------------ERROR 404 ----------------------- */
 .error_404_body{
-
  background: #333!important;}
