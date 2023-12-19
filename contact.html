@@ -18,6 +18,7 @@
 
 <body>
   <header>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary w-100 position-absolute p-0 text-uppercase text-light">
       <div class="container-fluid w-90 m-auto p-0">
         <a class="logo_a1 " href="index.html"><img src="assets/images/logo_bg/logo.png" alt=""></a>
@@ -36,6 +37,7 @@
                 data-bs-toggle="dropdown" aria-expanded="false">
                 LES ACTIVITÉS
               </a>
+              <!-- MENU BURGER -->
               <ul class="dropdown-menu bg-333">
                 <li><a class="dropdown-item text-light text-luxe-hover" href="404.html">LE CYCLING</a></li>
                 <li><a class="dropdown-item text-light text-luxe-hover" href="404.html">LE TRAINING FONCTIONNEL</a></li>
@@ -44,6 +46,7 @@
                     PERSONNEL</a></li>
               </ul>
             </li>
+            <!-- NAVBAR BOUTON HAUT -->
             <li class="nav-item p-10">
               <a class="nav-link text-light" href="404.html">Nos offres</a>
             </li>
@@ -75,37 +78,41 @@
     </div>
 
   </header>
+  <!-- MAIN FORMULAIRE-->
   <main>
-    <div class="container_contact d-flex justify-content-center align-items-center p-100">
+    <div class="container_contact d-flex justify-content-center align-items-center flex-column-reverse flex-lg-row py-lg-4 my-100">
       <div class="cordonnees">
         <h1>NOS COORDONNÉES</h1>
-        <ul class="d-flex flex-column">
-          <li class="d-flex flex-column w-50"><strong>Studio sport & Coaching</strong>01 Allée Marie Politzer 64200
+        <img src="assets/images/logo_bg/bg_titre.jpg" class="img-fluid" alt="">
+        <ul class="d-flex flex-column align-item-center p-0">
+          <li class="d-flex flex-column w-50 mx-auto"><strong>Studio sport & Coaching</strong>01 Allée Marie Politzer 64200
             Biarritz</li>
-          <li class="d-flex flex-column w-50"><strong>Telephone</strong>05 59 47 84 18</li>
-          <li class="d-flex flex-column w-50"><strong>Horaires</strong>Du lundi au vendredi de 8h à 14h, de 16h à 21h Le
+          <li class="d-flex flex-column w-50 mx-auto"><strong>Telephone</strong>05 59 47 84 18</li>
+          <li class="d-flex flex-column w-50 mx-auto"><strong>Horaires</strong>Du lundi au vendredi de 8h à 14h, de 16h à 21h Le
             samedi de 10h à 13h</li>
-          <li class="d-flex flex-column w-50"><strong>Email</strong>contact (at) studiobiarritz.com ou via ce formulaire
+          <li class="d-flex flex-column w-50 mx-auto"><strong>Email</strong>contact (at) studiobiarritz.com ou via ce formulaire
           </li>
         </ul>
       </div>
       <form class="d-flex flex-column w-40">
         <h1>FORMULAIRE DE CONTACT</h1>
-        <div class="row">
-          <div class=" row gap-1">
-            <input type="text" class="col-12 col-md-6" placeholder="VOTRE NOM">
-            <input type="text" class="col-12 col-md-6" placeholder="VOTRE PRÉNOM">
+        <div><img src="assets/images/logo_bg/bg_titre.jpg" class="" alt=""></div>
+        <div class="row d-flex align-items-center">
+          <div class="row gap-1">
+            <input type="text" class="col-12 col-md-5" placeholder="VOTRE NOM">
+            <input type="text" class="col-12 col-md-5" placeholder="VOTRE PRÉNOM">
           </div>
-          <div class=" gap-3 row my-2">
-            <input type="text" class="col" placeholder="VOTRE TÉLÉPHONE">
-            <input type="text" class="col-8" placeholder="VOTRE EMAIL">
+          <div class=" gap-1 row my-2">
+            <input type="text" class="col-12 col-md-6" placeholder="VOTRE TÉLÉPHONE">
+            <input type="text" class="col-12 col-md-5" placeholder="VOTRE EMAIL">
           </div>
-          <input type="text" class="col1" placeholder="SUJET">
-          <input type="text" class="col my-2 p-5" placeholder="VOTRE MESSAGE">
-          <div> <input class="d-block" type="submit"></div>
+          <input type="text" class="col-10" placeholder="SUJET">
+          <input type="text" class="col-10 my-2" placeholder="VOTRE MESSAGE">
+          <input class="d-block w-90" type="submit">
         </div>
       </form>
     </div>
+    <!-- 6 CARDS FOOTER -->
     <img src="assets/images/logo_bg/googlemap_dark.PNG" class="w-100" alt="">
   </main>
   <div class="card-group">
@@ -130,7 +137,7 @@
   </div>
   <footer class="text-center text-lg-start text-white" style="background-color:#282828">
     <div class="container p-4 pb-0 d-flex align-items-center" style="height: 350px;">
-
+<!-- LIENS UTILES -->
       <section>
         <div class="row align-items-center">
           <div class="col-lg-3">
@@ -139,17 +146,23 @@
               <h5 class="m-left-25"> À PROPOS</h5>
             </div>
             <h6 class="m-0">2018 @ Studio Sport & Coaching Biarritz</h6>
-              <p class="fw-lighter m-0">Salle de sport, de fitness et de crossfit à Biarritz pays basque.</p>
-              <p class="m-0 fw-lighter">RCS : 000 000 000</p>
-            
+            <p class="fw-lighter m-0">Salle de sport, de fitness et de crossfit à Biarritz pays basque.</p>
+            <p class="m-0 fw-lighter">RCS : 000 000 000</p>
+
             <a href="#" class="text-white">Mentions légales</a>
           </div>
           <div class="col-lg-3 col-md-6 mb-4">
             <h5 class="text-uppercase py-4">STUDIO SPORT CORPORATE</h5>
             <ul>
-             <li><a href="#" class="test position-relative  text-decoration-none text-light text-luxe-hover m-left-10">Studio Center : créez votre studio</a></li>
-             <li><a href="#" class="test position-relative text-white text-decoration-none text-light text-luxe-hover m-left-10">Offres Spéciales C.E.</a></li>
-             <li><a href="#" class="test position-relative text-white text-decoration-none text-light text-luxe-hover m-left-10">Devenir partenaire</a></li>
+              <li><a href="#"
+                  class="test position-relative  text-decoration-none text-light text-luxe-hover m-left-10">Studio
+                  Center : créez votre studio</a></li>
+              <li><a href="#"
+                  class="test position-relative text-white text-decoration-none text-light text-luxe-hover m-left-10">Offres
+                  Spéciales C.E.</a></li>
+              <li><a href="#"
+                  class="test position-relative text-white text-decoration-none text-light text-luxe-hover m-left-10">Devenir
+                  partenaire</a></li>
             </ul>
           </div>
           <div class="col-lg-5 col-md-6 mb-4">
@@ -165,6 +178,7 @@
         </div>
       </section>
     </div>
+    <!-- FIN DU FOOTER -->
     <section>
       <div class="bg-black w-100">
         <div class="d-flex align-items-center justify-content-center p-20">

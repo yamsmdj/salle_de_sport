@@ -202,6 +202,10 @@ border-bottom: 2px solid black ;
 .test:hover::before{
     border-color:#cbac6b
 }
+.my-100{
+    margin: 100px 0px;
+}
+
 /* -----------------------------------MEDIA QUERY ------------------------------------- */
 .logo_a1{
     display: none;
