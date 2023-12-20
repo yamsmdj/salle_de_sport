@@ -161,6 +161,7 @@ color: white!important;
 .height{
     height: 400px;
 }
+/*  */
 
 
 /* ----------------------CONTACT PAGE  ------------------------------*/
@@ -209,11 +210,9 @@ border-bottom: 2px solid black ;
 .my-100{
     margin: 100px 0px;
 }
-
 .logo_a1{
     display: none;
 }
-
 .coach{
     width: 100%;
     height: 100%;
@@ -349,3 +348,51 @@ opacity: .7;
 /* -------------------------------------ERROR 404 ----------------------- */
 .error_404_body{
  background: #333!important;}
+
+ * carousel */
+
+.carousel-item {
+    height: 350px;
+    width: 500px;
+}
+
+#carouselExampleIndicators {
+    width: 530px;
+}
+
+#h-indicator {
+    height: 10px!important;
+}
+
+.carousel-indicators button {
+    height: 8px!important;
+}
+.carousel-indicators [data-bs-target] {
+    width: 8px!important;
+}
+
+#btn1, #btn2, #btn3 {
+    border: 2px white solid;
+}
+/* bg_button */
+
+.bg-button {
+    background-color: #D7A963;
+}
+
+.bg-button {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* paragraphe */
+
+.fs {
+    font-size: 82.5%;
+}
+
+.fs p {
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
