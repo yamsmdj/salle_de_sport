@@ -19,6 +19,9 @@ header a:hover, button:hover{
 .w-30{
     width: 30%;
 }
+.w-60{
+    width: 60%;
+}
 .w-90{
     width: 90%!important;
 }
@@ -164,6 +167,11 @@ color: white!important;
 .height{
     height: 400px;
 }
+.form-control{
+    background:rgba(172, 171, 171, 0.349) !important;
+}
+
+
 /*  */
 
 
