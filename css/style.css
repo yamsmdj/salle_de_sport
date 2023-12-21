@@ -129,7 +129,7 @@ color: white!important;
 }
 .mini_contain h2,button{
     background-color: transparent;
-    padding: 4% 5%;
+    padding: 1% 5%;
    
 }
 .mini_contain button{
@@ -414,7 +414,6 @@ opacity: .7;
 }
 .carousel-indicators{
     left: 15%!important;
-    margin-bottom: 0!important;
     margin-left: 0!important;
 }
 
