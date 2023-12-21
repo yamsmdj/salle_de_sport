@@ -251,6 +251,13 @@ opacity: .7;
     .width-xl-50{
         width: 50%;
     }}
+    
+@media screen and (min-width:1200px) {
+    .h-xl-622{
+        height: 622px
+}}
+
+
 @media screen and (min-width:992px) {
 .w-lg-20{
     width: 10%!important;
@@ -273,7 +280,9 @@ opacity: .7;
 .h-lg-448{
     height: 448px;
 }
-}
+.h-xl-622{
+    height: 622px!important;
+}}
     @media screen and (max-width: 992px){
     .logo_a1{
         display: block;
