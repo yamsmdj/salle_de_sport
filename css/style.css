@@ -387,14 +387,14 @@ opacity: .7;
 
 #h-indicator {
     height: 10px!important;
-}
+} */
 
-.carousel-indicators button {
+/* .carousel-indicators button {
     height: 8px!important;
 }
 .carousel-indicators [data-bs-target] {
     width: 8px!important;
-}
+} */
 
 #btn1, #btn2, #btn3 {
     border: 2px white solid;
@@ -402,15 +402,15 @@ opacity: .7;
 .bg-button {
     background-color: #D7A963;
 }
-.carousel-indicators{
+/* .carousel-indicators{
     left: 15%!important;
     margin-left: 0!important;
 }
 
 .carousel-item .active img{
-    aspect-ratio: 16/10;
-}
-.bg-button {
+    aspect-ratio: 16/10; */ 
+/* } */
+/* .bg-button {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
