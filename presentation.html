@@ -79,50 +79,72 @@
   </header>
 
   <main>
-    <section>
-      <div class="w-100 m-auto text-center">
-          <h1 class="d-flex justify-content-center pt-5">LE TRAINING FONCTIONNEL</h1>
-          <img src="assets/images/logo_bg/bg_titre.jpg" class="pb-5 pt-1" alt="trait">
-        <div class="d-flex w-75 m-auto flex-column-reverse flex-lg-row ">
-            <div class="col-6 text-start d-flex flex-column justify-content-center px-2 m-auto py-5 py-lg-0 ">
-              <div class="d-flex justify-content-between fs-6 d-lg-block">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quae debitis provident quam, nesciunt odio, aperiam, vero suscipit quibusdam assumenda eaque! Assumenda est officia nostrum nam tenetur, laudantium commodi reprehenderit?</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quae debitis provident quam, nesciunt odio, aperiam, vero suscipit quibusdam assumenda eaque! Assumenda est officia nostrum nam tenetur, laudantium commodi reprehenderit?</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quae debitis provident quam, nesciunt odio, aperiam, vero suscipit quibusdam assumenda eaque! Assumenda est officia nostrum nam tenetur, laudantium commodi reprehenderit?</p>
-              </div>
-              <div class="button_link d-flex justify-content-between">
-                <button class="bg-button text-light text-center w-50 p-2 me-2 border-0  ">VOIR NOS OFFRES <br> ET FORMULES</button>
-                <button class="bg-button text-light text-center w-50 p-2 mx-2 border-0 text-center  ">CONTACT <br> ET RÉSERVATION</button>
-              </div>
-            </div>
-          
-            <div id="carouselExampleIndicators" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" id="btn1" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" id="btn2"
-                  aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" id="btn3"
-                  aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner position-relative">
-                <div class="carousel-item active">
-                  <img src="assets/images/slider/slide_1.jpg" class="d-block w-100" alt="slide1">
-                  <img src="assets/images/logo_bg/logo_footer.png" alt="" class="imglogofond position-absolute start-0 bottom-0 mx-3 mb-1 opacity-50">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/images/slider/slide_2.jpg" class="d-block w-100" alt="slide2">
-                  <img src="assets/images/logo_bg/logo_footer.png" alt="" class="imglogofond position-absolute start-0 bottom-0 mx-3 opacity-50">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/images/slider/slide_3.jpg" class="d-block w-100" alt="slide3">
-                  <img src="assets/images/logo_bg/logo_footer.png" alt="" class="imglogofond position-absolute start-0 bottom-0 mx-3 opacity-50">
-                </div>
-              </div>
-            </div>
+
+    <!-- Partie Théo -->
+<section>
+  <!-- Conteneur principal pour la présentation, avec style pour largeur et centrage -->
+  <div class="container_presentation w-75 m-auto text-center">
+    
+    <!-- Titre de la section avec style flex pour un alignement centré vertical -->
+    <h1 class="d-flex flex-column justify-content-center pt-5">LE TRAINING FONCTIONNEL</h1>
+    
+    <!-- Image servant de décoration sous le titre -->
+    <img src="assets/images/logo_bg/bg_titre.jpg" class="pb-5 pt-1" alt="trait">
+
+    <!-- Conteneur pour le contenu et les images du carousel -->
+    <div class="containers row justify-content-center align-items-start">
+      
+      <!-- Colonne pour le texte, adaptée pour différentes tailles d'écran -->
+      <div class="col-10 col-md-6 d-flex flex-column justify-content-center px-2 text-md-start">
+        
+        <!-- Bloc de texte avec un style spécifique -->
+        <div class="fs">
+          <!-- Paragraphes de texte de remplissage (Lorem ipsum) -->
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quae debitis provident quam, nesciunt odio, aperiam, vero suscipit quibusdam assumenda eaque! Assumenda est officia nostrum nam tenetur, laudantium commodi reprehenderit?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quae debitis provident quam, nesciunt odio, aperiam, vero suscipit quibusdam assumenda eaque! Assumenda est officia nostrum nam tenetur, laudantium commodi reprehenderit?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quae debitis provident quam, nesciunt odio, aperiam, vero suscipit quibusdam assumenda eaque! Assumenda est officia nostrum nam tenetur, laudantium commodi reprehenderit?</p>
+        </div>
+
+        <!-- Conteneur pour les boutons de lien, avec style pour alignement et espacement -->
+        <div class="button_link d-flex align-items-center flex-column flex-md-row">
+          <!-- Boutons avec style pour l'apparence et la mise en page -->
+          <button class="bg-button me-md-3 border-0 text-light text-center w-75 mb-3 mt-2 w-md-50">VOIR NOS OFFRES <br> ET FORMULES</button>
+          <button class="bg-button b2 text-center border-0 text-center w-75 btn-block text-light mt-2 mb-3 w-md-50">CONTACT <br> ET RÉSERVATION</button>
         </div>
       </div>
-    </section>
+      
+      <!-- Carousel pour les images, adapté pour différentes tailles d'écran -->
+      <div id="carouselExampleIndicators" class="carousel slide col-5 position-relative mt-2 mt-md-1 px-2">
+        
+        <!-- Indicateurs pour le carousel, positionnés absolument -->
+        <div id="h-indicator" class="carousel-indicators position-absolute">
+          <!-- Boutons pour naviguer entre les différentes slides du carousel -->
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" id="btn1" class="active mb-1" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" id="btn2" aria-label="Slide 2" class="mb-1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" id="btn3" aria-label="Slide 3" class="mb-1"></button>
+        </div>
+
+        <!-- Conteneur interne du carousel avec les différentes slides -->
+        <div class="carousel-inner">
+          <!-- Chaque slide contient une image et un logo avec une position spécifique et un style d'opacité -->
+          <div class="carousel-item active">
+            <img src="assets/images/slider/slide_1.jpg" class="d-block h-100 w-100" alt="slide1">
+            <img src="assets/images/logo_bg/logo_footer.png" alt="" class="imglogofond position-absolute start-0 bottom-0 mx-3 mb-1 opacity-50">
+          </div>
+          <!-- Autres slides similaires -->
+          <div class="carousel-item">
+            <img src="assets/images/slider/slide_2.jpg" class="d-block h-100 w-100" alt="slide2">
+            <!-- Image du logo -->
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/slider/slide_3.jpg" class="d-block h-100 w-100" alt="slide3">
+            <!-- Image du logo -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     <section>
       <div class="container_atelier text-center w-100">
         <h1 class="pt-5">LES ATELIERS PRÉSENTS DANS LE TRAINING FONCTIONNEL</h1>

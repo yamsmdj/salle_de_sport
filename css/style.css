@@ -438,3 +438,73 @@ opacity: .7;
     font-family: 'Open Sans';
     font-weight: 500;
 }
+/* partie theo */
+/* carousel */
+
+.carousel-item {
+    height: 350px;
+    width: 500px;
+}
+
+#carouselExampleIndicators {
+    width: 530px;
+}
+
+#h-indicator {
+    height: 10px!important;
+}
+
+.carousel-indicators button {
+    height: 8px!important;
+}
+.carousel-indicators [data-bs-target] {
+    width: 8px!important;
+}
+
+#btn1, #btn2, #btn3 {
+    border: 2px white solid;
+}
+/* bg_button */
+
+.bg-button {
+    background-color: #D7A963;
+}
+
+.bg-button {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* paragraphe */
+
+.fs {
+    font-size: 82.5%;
+}
+
+.fs p {
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+
+/* media query perso pour mode horizontal (1) */
+
+@media (max-width: 932px) and (max-height: 430px) {
+    .fs {
+        text-align: center;
+    }
+    .bg-button{
+        height: 80px;
+    }
+    
+  }
+
+/* media query perso pour mode horizontal (2) */
+@media (max-width: 963px) and (max-height: 1368px) {
+    .fs {
+        text-align: center;
+    }
+    .bg-button{
+        height: 80px;
+    }
+  }
