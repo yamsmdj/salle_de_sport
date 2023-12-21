@@ -182,7 +182,12 @@ color: white!important;
 
 
 /* ----------------------CONTACT PAGE  ------------------------------*/
-
+iframe{
+    filter: invert(75%) grayscale(100%) ;
+}
+.frame{
+    height: 500px;
+}
 form input{ 
     padding: 15px;
     background-color: rgba(172, 171, 171, 0.349);
@@ -386,7 +391,7 @@ opacity: .7;
 .error_404_body{
  background: #333!important;}
 
- * carousel */
+ /* carousel */
 
 .carousel-item {
     height: 350px;
