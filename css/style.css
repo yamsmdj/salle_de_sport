@@ -324,7 +324,6 @@ opacity: .7;
     }
     .navbar-collapse{
         background-color: #333;
-        display: flex;
     }
     ul .dropdown-menu{
         border: none;
@@ -386,13 +385,6 @@ opacity: .7;
 .error_404_body{
  background: #333!important;}
 
- /* carousel */
-
-/* .carousel-item {
-    height: 350px;
-    width: 500px;
-}
-
 #h-indicator {
     height: 10px!important;
 } */
@@ -424,4 +416,4 @@ opacity: .7;
 }
 .imglogofond{
     z-index: 2;
-} */
+}
