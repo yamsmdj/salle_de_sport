@@ -1,5 +1,5 @@
 // ------ REGEX --------
-const UserRegex = /^[a-zA-Z][a-zA-Z]{3,23}$/;
+const UserRegex = /^[a-zA-Z]{3,23}$/;
 const PasswordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@&#$%]).{8,23}$/;
 const EmailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const PhoneNumberRegex = /^(?:\d{1,3})?\d{10,14}$/;
@@ -38,23 +38,17 @@ function addclass(element,regex , value, valid) {
     inputSujet.addEventListener('input', (e)=>{addclass(inputSujet, SujetRegex, e.target.value)});
     inputComment.addEventListener('input', (e)=>{addclass(inputComment, CommentRegex, e.target.value)});
     
-    form.addEventListener('submit', e=> {
-        e.preventDefault()
-        if (emailValid && nomValid && telValid && prenomValid && sujetValid && msgValid) {
-
-            Email.send({
-                SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
-                To : '',
-                From : "localhost:5500",
-                Subject : "This is the subject",
-                Body : "And this is the body",
-                Attachments : [
-                {
-                    name : "smtpjs.png",
-                    path : "https://networkprogramming.files.wordpress.com/2017/11/smtpjs.png"
-                }]
-            }).then(
-              message => alert(message)
-            );
+    form.addEventListener('submit', e=>{
+        e.preventDefault();
+        if (nomValid && prenomValid && telValid && emailValid && sujetValid && msgValid) {
+          Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "lasalledesport90@gmail.com",
+            Password : "76C8286E090E4EFEE9F45EDD7FE41B69819F",
+            To : 'salle2sport@outlook.fr',
+            From : "lasalledesport90@gmail.com",
+            Subject : sujetValue,
+            Body : `${prenomValue} ${nomValue} qui a les coordonées suivantes :<br/> numéro de tel: ${telValue}<br/> adresse mail: ${emailValue}<br/> vous a envoyer le message suivant : <br/> ${msgValue}`
+          }).then(message => message == 'OK' && location.reload())
         }
-    })
+      })
