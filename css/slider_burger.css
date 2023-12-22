@@ -19,9 +19,9 @@
   .hamburger {
     position: fixed;
     z-index: 100;
-    top: 1rem;
-    right: 1rem;
-    padding: 4px;
+    top: 2rem;
+    right: 3rem;
+    padding: 10px;
     border: black solid 1px;
     background: white;
     cursor: pointer;
@@ -56,8 +56,8 @@
     place-items: center;
   }
   .box{
-    width: 300px;
-    height: 200px;
+    width: 800px;
+    height: 600px;
   }
   .slider{
     position: relative;
